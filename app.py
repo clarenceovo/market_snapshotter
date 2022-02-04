@@ -60,7 +60,9 @@ class app:
         print(self.quote)
 
     def run(self):
+        logger.info("Start running the Data collection loop...")
         self.get_snapshot()
+        self.get_quote()
         schedule.every(0.5).minutes.do(self.get_snapshot)
         schedule.every(5).seconds.do(self.get_quote)
         while True:
