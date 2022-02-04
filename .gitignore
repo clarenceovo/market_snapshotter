@@ -1,0 +1,8 @@
+
+config/credential.json
+.idea/modules.xml
+.idea/misc.xml
+.idea/market_snapshotter.iml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/profiles_settings.xml
+*.pyc
